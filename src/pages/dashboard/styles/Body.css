@@ -1,0 +1,77 @@
+.calculate{
+
+border: solid purple;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: large;
+    font-weight: bold;
+    color: orangered;
+}
+
+.main{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.main li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.main li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.main li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-left: 2px solid white;
+    animation: typing 12s steps(10, end) infinite;
+
+}
+
+@keyframes typing {
+    40%, 60% {
+        left: calc(100% + 30px)    }
+    100% {
+        left: 0;
+    }
+}
+
+.autotype {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 2s steps(20, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    5% { border-color: orange }
+}

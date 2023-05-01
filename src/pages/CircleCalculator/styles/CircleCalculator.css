@@ -1,0 +1,49 @@
+span{
+    color: red;
+    font-weight: bold;
+}
+#response div{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+
+}
+#response{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    color: black;
+
+
+}
+#secondDiv{
+    border: solid pink ;
+    background-color: rgba(238, 143, 191, 0.85);
+    margin-top: 10%;
+}
+.mainC{
+    box-shadow: #282c34;
+
+}
+.MainOne{
+    display: flex;
+    background-color: rgba(238, 143, 191, 0.85);
+
+}
+.MainTwo{
+    background-image: url("https://images.summitmedia-digital.com/cosmo/images/2019/10/18/metabolism-period-menstrual-cycle-1571372615.jpg");
+    height: 100vh;
+    width: 40%;
+    padding-left: 20%;
+}
+.QAndABlock{
+    display: -ms-flexbox;
+    width: 45%;
+    background-color: rgba(238, 143, 191, 0.85);
+
+}
+.MainOne Button{
+    background-color: rgba(238, 143, 191, 0.85);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}

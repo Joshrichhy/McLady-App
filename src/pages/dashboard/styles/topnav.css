@@ -1,0 +1,13 @@
+.topNav{
+    display: flex;
+    list-style: none;
+    border: solid pink;
+    border-radius: 10%;
+
+}
+.topNav li{
+    margin-left: 10%;
+}
+.topNav h1{
+    color: hotpink;
+}
